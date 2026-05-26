@@ -1,4 +1,4 @@
-package PETCARE.MODEL;
+package PETCAREMODEL;
 
 // ANIMAL POSSUI (COMPOSIÇÃO) UM PRONTUÁRIO
 public class Animal {
