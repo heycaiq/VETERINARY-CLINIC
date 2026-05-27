@@ -1,10 +1,10 @@
-package PETCARE.SERVICE;
+package petcareservice;
 
 import java.util.ArrayList;
 import java.util.List;
-import PETCARE.MODEL.Customer;
-import PETCARE.MODEL.Professional;
-import PETCARE.MODEL.Appointment;
+import petcaremodel.Customer;
+import petcaremodel.Professional;
+import petcaremodel.Appointment;
 
 public class ClinicalService {
 
