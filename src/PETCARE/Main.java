@@ -1,8 +1,8 @@
 package petcare;
 
 import java.time.LocalDateTime;
-import PETCARE.MODEL.*;
-import PETCARE.SERVICE.ClinicalService;
+import petcaremodel.*;
+import petcareservice.ClinicalService;
 
 public class Main {
 
