@@ -1,4 +1,4 @@
-package PETCARE.MODEL;
+package petcaremodel;
 
 public class VeterinaryAssistant extends Professional {
 
