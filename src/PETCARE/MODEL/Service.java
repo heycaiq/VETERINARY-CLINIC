@@ -1,4 +1,4 @@
-package PETCARE.MODEL;
+package petcaremodel;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
