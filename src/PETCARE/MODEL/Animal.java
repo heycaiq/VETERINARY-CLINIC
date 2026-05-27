@@ -1,6 +1,6 @@
-package PETCAREMODEL;
+package petcaremodel;
 
-// ANIMAL POSSUI (COMPOSIÇÃO) UM PRONTUÁRIO
+//ANIMAL POSSUI (COMPOSIÇÃO) UM PRONTUÁRIO
 public class Animal {
 
 	private int id;
@@ -9,16 +9,17 @@ public class Animal {
 	private String breed;
 	private int ageYears;
 	private double weightKg;
-	private Record record;
+	private MedicalRecord record;
 
-	public Animal(int id, String name, String species, String breed, int ageYears, double weightKg, Record record) {
+	public Animal(int id, String name, String species, String breed, int ageYears, double weightKg,
+			MedicalRecord record) {
 		this.id = id;
 		this.name = name;
 		this.species = species;
 		this.breed = breed;
 		this.ageYears = ageYears;
 		this.weightKg = weightKg;
-		this.record = (record != null) ? record : new Record();
+		this.record = (record != null) ? record : new MedicalRecord();
 	}
 
 	public void registerService(Service service) {
@@ -55,7 +56,7 @@ public class Animal {
 		return weightKg;
 	}
 
-	public Record getRecord() {
+	public MedicalRecord getRecord() { // ✅ Corrigido: era "Record"
 		return record;
 	}
 
